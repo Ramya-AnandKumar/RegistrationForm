@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> Registration Form </title>
+<link rel="stylesheet" href="reg2.css">
+<script src="reg3.js"> </script>
+
+
+
+
+
+</head>
+<!--<body background="https://i.ibb.co/2c8sd3P/bg.jpg" >-->
+<body>
+<div class="button" >
+
+<h1> REGISTRATION FORM </h1>
+<!--<button id="button1"  type="button"> Click Me!</button>-->
+
+<form name='registration' method="post" class="form" action="#"  autocomplete="off">
+
+  <label for="f name"><strong>First name:</strong> &nbsp; 
+  <input type="text" id="fname" name="Firstname"><br><br></label>
+  <label for="l name"><strong>Last name:<strong> &nbsp; 
+  <input type="text" id="lname" name="Lastname"><br><br></label>
+  &nbsp; 
+  <label for="email"><strong>Email: <strong>  &nbsp; 
+  <input type="text" id="email" name="Email"><br><br> </label>
+  <label for="mobile Number"><strong>Mobile No:<strong> &nbsp; 
+  <input type="text" id="MobileNo" name="Lastname"><br><br></label>
+  <label for="DOB"><strong>DOB:</strong>   &nbsp; 
+  <input type="date" id="date" name="Date"> <br><br> </label>
+  <!-- <input type="month" id="month" name="month"> &nbsp 
+  <input type="year" id="year" name="year"> <br><br>-->
+
+  <label for="Gender"><strong>Gender: </strong>  
+  <select class="dropdown" id="Gender">
+  <option>Female</option>
+  <option>Male</option>
+</select> </label>
+<br><br><br>
+
+
+<button name="regiser" id="i1" type="register" onclick= "return formValidate()" onclick="tableCreate()";> Register </button>
+
+
+ <br> <br>
+<button id="i2" name="clear" type="reset"   onclick="return reset";> CLEAR </button>
+
+<button id="i3" name="reset" type="clear" onclick="return clear" value="RESET">RESET </button>
+<br> <br> <br>
+</form>
+</div>
+ 
+<div id="Data_display" ></div>
+
+
+
+</body>
+</html>
