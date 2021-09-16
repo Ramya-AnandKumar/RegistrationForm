@@ -9,18 +9,6 @@ var MobileNum=document.getElementById("MobileNo")
 var Date=document.getElementById("date");
 var Gender=document.getElementById("Gender");
 
-/*var graphData = [];
-graphData.push(Firstname.value);
-graphData.push(Lastname.value);
-graphData.push(Email.value);
-graphData.push(MobileNum.value);
-graphData.push(Date.value);
-graphData.push(Gender.value);
-
-function dataf()
-{
-return console.log(graphData[0]);
-}*/
 if(!validateMobile(MobileNum)){
 alert("Mobile number is not valid");
 alert('User Mobile Number must have numeric characters only');	
@@ -123,17 +111,7 @@ document.getElementById('Data_display').innerHTML = theader + tbody + tfooter;
 
 }
 
-function clear(){
-            document.getElementById("button").reset();
 
-            /*document.getElementById('lname').value='0';
-            document.getElementById('email').value='';
-			document.getElementById('MobileNo').value='';
-            document.getElementById('date').value='';
-            document.getElementById('gender').value='';
-            document.getElementById('fname').value='';*/
-
-            }
 function reset(){
 	if(Firstname.value==''|| Lastname.value==''||Email.value==''||MobileNum.value==''||Date.value==''||Gender.value==''){
 		return console.clear();
